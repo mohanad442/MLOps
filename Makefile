@@ -6,3 +6,6 @@ lint:
 
 test:
 	python -m pytest -vv test_xy.py	
+
+deploy:
+	uvicorn app:app --reload
